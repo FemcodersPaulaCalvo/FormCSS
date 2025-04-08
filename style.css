@@ -1,0 +1,136 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e3e5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 20vh;
+}
+.card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2%;
+  padding: 2em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 2em;
+  margin: 0em;
+}
+
+.subtitle {
+  font-size: 1em;
+  font-weight: bolder;
+}
+
+.subtitle > a,
+.forget-pass {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.social-login {
+  display: flex;
+  flex-direction: row;
+  height: 3em;
+}
+
+.google-btn,
+.fb-btn {
+  background-color: white;
+  border: 2px solid #e3e5f5;
+  border-radius: 0.7em;
+  margin: 0.2em;
+  padding: 0 0.5em;
+}
+
+.fb-btn {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.google-btn {
+  display: flex;
+  flex-direction: row;
+  padding: 0 3em;
+  align-items: center;
+  font-weight: bold;
+}
+
+.btn-text {
+  font-size: 0.7em;
+  font-weight: bolder;
+  margin: 0.5em 0;
+}
+
+.google-btn > img {
+  width: 3em;
+  height: 3em;
+}
+
+.fb-btn > img {
+  width: 2em;
+  height: 2em;
+}
+
+.or {
+  font-size: 1em;
+  border-top: 2px solid #e3e5f5;
+  width: 100%;
+  height: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+  margin-top: 1.5em;
+}
+
+.or > span {
+  font-weight: bold;
+  background-color: white;
+  padding: 0 0.7em;
+}
+
+.email-login {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: rgba(128, 128, 128, 0.8);
+}
+
+.email-login > input {
+  height: 4em;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  border-radius: 0.7em;
+  padding: 0 1.5em;
+  margin-bottom: 1em;
+  font-size: 0.7em;
+}
+
+.email-login > label {
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+.cta-btn {
+  width: 100%;
+  height: 4em;
+  background-color: #4644b6;
+  border: 2px solid #4644b6;
+  border-radius: 0.7em;
+  padding: 0%;
+  margin: 1em;
+  color: white;
+  font-size: 0.7em;
+}
